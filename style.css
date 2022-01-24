@@ -3,6 +3,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
+nav a:hover{
+    color:dodgerblue !important;
+}
 /* Hot item area  */
 .hot-item{
     height: 450px;
