@@ -1,16 +1,44 @@
+/* Coustom CSS  */
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
+/* Hot item area  */
 .hot-item{
     height: 450px;
 }
 .hot{
     margin-left: 80%;
 }
+/* best moments & Contact area bg */
+.best-moments{
+    background-image: url(images/bg-gallary1.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    background-image: url(images/bg-gallary2.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Input & Text Area  */
+textarea{
+    height: 150px;
+}
+
+::placeholder {
+    color: white !important;
+  }
+/* footer area  */
 footer{
     background-color: black;
 }
-textarea{
-    height: 150px;
+footer a:hover{
+    text-decoration: underline !important;
 }
